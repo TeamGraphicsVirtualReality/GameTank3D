@@ -2,6 +2,7 @@
 using System.Collections;
 public class EnemyMovement : TankMovement {
 	public float minTime,maxTime;
+    //Max tank limited
 	private int maxSize = 4;
 	private Vector3[] orientation = new Vector3[4];
 	private Vector3 []lookAtByAxis= { Vector3.forward, Vector3.back, Vector3.left,Vector3.right};
