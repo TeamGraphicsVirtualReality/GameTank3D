@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Firing Tank 3D", "Assembly-CSharp.csproj", "{1FAB2A86-4248-50B8-6106-B8F72B7FCB81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FAB2A86-4248-50B8-6106-B8F72B7FCB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAB2A86-4248-50B8-6106-B8F72B7FCB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAB2A86-4248-50B8-6106-B8F72B7FCB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAB2A86-4248-50B8-6106-B8F72B7FCB81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
