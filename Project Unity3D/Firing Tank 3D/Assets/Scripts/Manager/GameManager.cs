@@ -4,16 +4,19 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
-	const int maxLevel = 3;
-	const int numberOfEnemy = 35;
-//	const int numberOfEnemy = 4;
+
+
+	const int maxLevel = 5;
+    //số lượng max tank máy là 10
+	const int numberOfEnemy = 5;
+
 	const int minNumberOfEnemy = 4;
 	public static string level = "GameLevel";
 
-	public GameObject []enemy;
+	public GameObject []enemy;//mảng các tank máy
 
-	private GameObject showCurrentLevel;
-	private GameObject score;
+	private GameObject showCurrentLevel;//text level hiện tại
+	private GameObject score;//text diem
 	private static int maxEnemy;
 	private static int countScore = 0;
 
@@ -21,7 +24,6 @@ public class GameManager : MonoBehaviour {
 		score = GameObject.FindGameObjectWithTag ("Score");
 		showCurrentLevel = GameObject.FindGameObjectWithTag ("Level");
 
-		//test temp
 		//maxEnemy = numberOfenemy;// + 10 * (SceneLoader.currentLevel - 1);
 		maxEnemy = numberOfEnemy + 10 * (SceneLoader.currentLevel - 1);
 			
@@ -57,7 +59,6 @@ public class GameManager : MonoBehaviour {
 	public void destroyEnemy(){
 		maxEnemy--;
 		countScore++;
-		//add to pref
 		PlayerPrefs.SetInt("currentScore",countScore);
 	}
 

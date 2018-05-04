@@ -10,7 +10,7 @@ public class PlayerMovement : TankMovement {
 	void FixedUpdate(){
 		//keyboard test
 		Move();
-		touchMove ();
+	    touchMove ();
 	}
 		
 	private void touchMove(){
